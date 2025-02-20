@@ -30,4 +30,4 @@ for i in range(1, num_blocks + 1):                                              
     blockchain.append(new_block)                                                            # Add the new block to the blockchain
 
     print(f"Block #{i} created!")                                                           # Print the block
-    print(f"Hash: {new_block.hash}\n")                                           # Print the hash of the block
+    print(f"Hash: {new_block.hash}\n")                                                      # Print the hash of the block
